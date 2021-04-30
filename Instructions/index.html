@@ -77,14 +77,14 @@
 									<li>Now upload the changed YOUR_ADMIN/includes/configure.php again. Note that this file is normally not writeable, so you will have to change the file permissions to chmod 644 before you upload.</li>
 									<li>After uploading change it back to chmod 444</li>
 								</ul>
-								<li>In the folder <em><b>New Files</b></em> rename the folder YOUR_ADMIN to the name of your admin directory.</li>
+								<li>In the folder <em><b>New_Files</b></em> rename the folder YOUR_ADMIN to the name of your admin directory.</li>
 								<ul>
 									<li>Upload the folders/files. No existing files will be overwritten.</li>
 									<li>Change the permissions of the folder <em><b>pdf-attachments</b></em> to chmod 755 as it needs to be writeable to store the PDF files later.</li>
 								</ul>
-								<li>In the folder <em><b>Changed Files</b></em>, rename the folder YOUR_TEMPLATE to the name of your active store template. This can be found by going to Tools &gt;&gt; Template Selection and looking under the Template Directory heading.</li>
+								<li>In the folder <em><b>Changed_Files</b></em>, rename the folder YOUR_TEMPLATE to the name of your active store template. This can be found by going to Tools &gt;&gt; Template Selection and looking under the Template Directory heading.</li>
 								<li>Rename the folder YOUR_ADMIN to whatever is actually the name of your admin folder.</li>
-								<li><strong>NOTE:</strong> The files in the <em><b>Changed Files</b></em> folder are modified 1.5.7c files. If you have modified any of these files from their standard form in 1.5.7c, you will need to compare the files to make sure any previous changes you made are properly merged with these files prior to uploading them to your site.</li>
+								<li><strong>NOTE:</strong> The files in the <em><b>Changed_Files</b></em> folder are modified 1.5.7c files. If you have modified any of these files from their standard form in 1.5.7c, you will need to compare the files to make sure any previous changes you made are properly merged with these files prior to uploading them to your site.</li>
 								<li>When editing a product you will now have a new option to define a description which will be shown later on the product details page for the PDF attachment. And you can upload a PDF file for that product.</li>
 								<ul>
 									<li>Working with these PDF attachments should be a familiar process as it mimics the product image section</li>
@@ -123,7 +123,7 @@
 						<h2>UNINSTALLATION</h2>
 						<ol>
 							<li>Use the uninstall.sql in the SQL folder to remove the database changes via Tools &gt;&gt; Install SQL Patches.</li>
-							<li>Delete all the new files created by ths plugin (those that were in the New Files) from your server.</li>
+							<li>Delete all the new files created by ths plugin (those that were in the <em><b>New_Files</b></em> folder) from your server.</li>
 							<li>Replace all the files changed by this plugin with the original files from the backup you made before adding this mod.</li>
 						</ol>
 					</div>
