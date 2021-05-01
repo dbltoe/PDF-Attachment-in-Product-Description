@@ -9,7 +9,7 @@
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dbltoe 2020 Oct 22 Modified in v1.5.7c
- * @version $Id: tpl_product_info_display.php for PDF Attachment Mod v2.2.0 2021-04-30 14:47:36Z dbltoe $
+ * @version $Id: tpl_product_info_display.php for PDF Attachment Mod v2.2.1 2021-04-30 dbltoe $
  */
 
 //require(DIR_WS_MODULES . '/debug_blocks/product_info_prices.php');
