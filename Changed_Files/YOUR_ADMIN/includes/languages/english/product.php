@@ -5,7 +5,7 @@
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: dbltoe 2021 Apr 30 Modified in v1.5.7c
- * @version $Id: product.php for PDF Attachment Mod v2.2.0 dbltoe $
+ * @version $Id: product.php for PDF Attachment Mod v2.2.1 dbltoe $
  */
 
 
