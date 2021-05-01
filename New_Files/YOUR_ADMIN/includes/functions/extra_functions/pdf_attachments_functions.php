@@ -1,3 +1,4 @@
+<?php
 // | http://www.zen-cart.com/index.php                                    |
 // +----------------------------------------------------------------------+
 // | This source file is subject to version 2.0 of the GPL license,       |
@@ -8,9 +9,8 @@
 // | to obtain it through the world-wide-web, please send a note to       |
 // | license@zen-cart.com so we can mail you a copy immediately.          |
 // +----------------------------------------------------------------------+
-//-Last updated for PDF Attachment v2.2.0, 20210430 (dbltoe)
+// Last updated for PDF Attachment v2.2.0, 20210430 (dbltoe)
 //
-<?php
 function zen_get_pdf_attachment_name($product_id, $language_id = 0) {
     global $db;
 
